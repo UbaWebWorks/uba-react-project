@@ -1,0 +1,59 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.sub-banner {
+  background: url(./Images/Events_image/2.jpg) center center no-repeat;
+  background-size: cover;
+  margin-top: -5px;
+  text-align: center;
+}
+.sub-banner .overlay {
+  background: rgba(54, 54, 54, 0.8);
+  padding: 120px 0;
+  padding-bottom: 0px;
+  min-height: 280px;
+}
+.sub-banner h2 {
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0px;
+}
+.sub-banner h2 span {
+  color: #ecc731;
+}
+.sub-banner .breadcrumb {
+  background: none;
+}
+.sub-banner .breadcrumb li {
+  text-transform: uppercase;
+  color: #aaaaaa;
+  font-size: 12px;
+  font-weight: bold;
+}
+.sub-banner .breadcrumb li a {
+  color: #aaaaaa;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+

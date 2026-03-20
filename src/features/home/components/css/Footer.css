@@ -1,0 +1,45 @@
+#footer_cont{
+    background: #232323;
+    color: rgb(189, 188, 188);
+    /* text-align: ce; */
+    text-decoration: none;
+}
+#footer_title{
+    color:#ecc731;
+}
+
+.col-me a{
+    text-decoration: none;
+    color:rgb(189, 188, 188);
+}
+.col-me p{
+    font-size: small;
+}
+#yuva{
+    color:#ecc731;
+    background: #232323;
+}
+.btn-footer{
+    font-size: smaller;
+    border: solid 2px #ecc731;
+    background: #232323;
+    color:white !important;
+}
+.btn-footer:hover{
+    background:#ecc7318b;
+}
+.bottom-bar{
+    background: #77777782;
+    /* border-radius: 15% 15% 0% 0% ; */
+    /* box-shadow: 0 0 10px #7c7c7c; */
+}
+@media only screen and (max-width: 480px) {
+    /* Your CSS rules for phone screens go here */
+    /* For example: */
+    #footer_cont{
+        text-align: center;
+    }
+    .col-me{
+        margin-top: 10%;
+    }
+  }
