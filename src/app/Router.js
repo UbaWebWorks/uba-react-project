@@ -1,4 +1,5 @@
 import React from "react";
+import './App.css'
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { HomeScreen } from "features/home/components/HomeScreen";
 import { Header } from "features/home/components/Header.js";

@@ -5,7 +5,7 @@ import e1 from 'assets/images/Events_image/swanpil1.jpeg'
 import e3 from 'assets/images/Events_image/anuradha1.png'
 import e4 from 'assets/images/Events_image/varsha1.png'
 import e5 from 'assets/images/Events_image/archana1.png'
-import carr from 'assets/images/Events_image/carr.png'
+import carr from 'assets/images/Events_image/event_that.jpg'
 import shs from 'assets/images/Events_image/shs.jpeg'
 import socio from 'assets/images/Events_image/socio.jpeg'
 

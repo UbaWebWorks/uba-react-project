@@ -9,6 +9,7 @@ import init2 from "assets/images/Beladi/CycleDonation/2.jpg";
 import init3 from "assets/images/Beladi/SelfDefence/1.jpeg";
 import Komalpreet from "assets/images/StudentTeam/Komalpreet.jpg";
 import Radhika from "assets/images/StudentTeam/Radhika_agr.jpg";
+import '../css/Villages.css'
 
 
 export const Rithaura = () => {

@@ -9,6 +9,7 @@ import Jyoti from "assets/images/StudentTeam/Jyoti.jpg"
 import Rishabh from "assets/images/StudentTeam/Rishabh.jpeg"
 import { StudentIdentityCard } from 'features/home/js/StudentIdentityCard';
 import { InitCard } from 'features/home/js/InitCard';
+import '../css/Villages.css'
 
 export const Beladi = () => {
   return (

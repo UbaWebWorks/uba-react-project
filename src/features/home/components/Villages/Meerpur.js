@@ -9,6 +9,7 @@ import init10 from "assets/images/Meerpur/ICT_Meerpur/2.png";
 import init11 from "assets/images/Meerpur/ICT_Meerpur/4.png";
 import { StudentIdentityCard } from 'features/home/js/StudentIdentityCard';
 import { InitCard } from 'features/home/js/InitCard';
+import '../css/Villages.css'
 
 
 export const Meerpur = () => {

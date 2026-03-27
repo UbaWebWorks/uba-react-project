@@ -9,6 +9,7 @@ import FPO from "assets/images/Puranpur/FPO awarness.jpg";
 import Ecobricks from "assets/images/Ecobricks.jpg";
 import Anuj from "assets/images/StudentTeam/Anuj.jpeg";
 import Charu from "assets/images/StudentTeam/Charu.jpg";
+import '../css/Villages.css'
 
 export const Puranpur = () => {
   return (

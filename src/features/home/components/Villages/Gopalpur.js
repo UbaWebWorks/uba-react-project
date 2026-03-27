@@ -9,6 +9,7 @@ import init1 from "assets/images/Gopalpur/Sanitary_Napkin.jpg";
 import init2 from "assets/images/Gopalpur/Sanitary_Napkin.jpg";
 import ShubhamK from "assets/images/StudentTeam/Shubham_kumar.jpg";
 import Rasika from "assets/images/StudentTeam/Rasika.jpeg";
+import '../css/Villages.css'
 
 
 export const Gopalpur = () => {
