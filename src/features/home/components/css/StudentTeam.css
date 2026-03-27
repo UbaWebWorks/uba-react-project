@@ -1,0 +1,65 @@
+body {
+  background: whitesmoke;
+}
+.studCard {
+  min-height: 312px;
+  border: none;
+  background: white;
+}
+
+.studCard .card-title {
+  color: black !important;
+}
+
+.studCard img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.cardBody {
+  background: linear-gradient(whitesmoke 30%, white 0%);
+}
+
+.headingStudent1 {
+  color: #ecc731;
+  font-weight: bold;
+  background: whitesmoke;
+  /* border-bottom: solid 2px #ecc730 ; */
+}
+
+.cardText {
+  color: black;
+}
+.profileWord {
+  color: #ecc731;
+  text-decoration: none;
+}
+.profileWord:hover {
+  color: #ecc731;
+}
+/* InitiativeIdentityCard's CSS */
+.initButton {
+  border-radius: 0%;
+  background-color: #ecc731 !important;
+}
+.initButton:hover {
+  color: whitesmoke;
+  background-color: #303030 !important;
+  transition: all 0.4s ease-in-out;
+}
+.initLink {
+  background: linear-gradient(to top, whitesmoke 50%, whitesmoke 0%);
+}
+.initCard {
+  border: none;
+  display: flex;
+  justify-content: center;
+
+}
+.initCard img {
+  border-radius: 0%;
+}
+.kuchbhi{
+  display: none;
+}
