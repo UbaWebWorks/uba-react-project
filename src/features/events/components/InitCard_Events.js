@@ -63,6 +63,29 @@ export const InitCard_Events = () => {
         date='December 20, 2020'
         event='Spandan- Talk by Archana Garodia Gupta'
         desc='In Spandan, Mrs Aechana garodia Gupta talked about how rural transformation Acknowledging women and much more' />
+      
+      <Events_InitCard1
+        image={e5}
+        date='December 20, 2020'
+        event='Spandan- Talk by Archana Garodia Gupta'
+        desc='In Spandan, Mrs Aechana garodia Gupta talked about how rural transformation Acknowledging women and much more' />
+
+      <Events_InitCard1
+        image={e5}
+        date='December 20, 2020'
+        event='Spandan- Talk by Archana Garodia Gupta'
+        desc='In Spandan, Mrs Aechana garodia Gupta talked about how rural transformation Acknowledging women and much more' />
+
+    </div>
+    <div className=''>
+
+
+    </div>
+    <div>
+
+    </div>
+    <div>
+
     </div>
 
   </div>;
