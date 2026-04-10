@@ -8,6 +8,9 @@ import e5 from 'assets/images/Events_image/archana1.png'
 import carr from 'assets/images/Events_image/event_that.jpg'
 import shs from 'assets/images/Events_image/shs.jpeg'
 import socio from 'assets/images/Events_image/socio.jpeg'
+import sociothon from 'src/assets/images/Events_image/sociothon.jpg'
+import sociothonResult from 'src/assets/images/Events_image/sociothon result.jpg'
+import swachhata from 'src/assets/images/Events_image/swachhata hi seva.jpg'
 
 
 export const InitCard_Events = () => {
@@ -65,27 +68,27 @@ export const InitCard_Events = () => {
         desc='In Spandan, Mrs Aechana garodia Gupta talked about how rural transformation Acknowledging women and much more' />
       
       <Events_InitCard1
-        image={e5}
-        date='December 20, 2020'
-        event='Spandan- Talk by Archana Garodia Gupta'
-        desc='In Spandan, Mrs Aechana garodia Gupta talked about how rural transformation Acknowledging women and much more' />
+        image={swachhata}
+        date='September 27, 2024'
+        event='Swachhata hi sewa'
+        desc='As part of the Swachhata Hi Seva (SHS) 2024 campaign, IIT Roorkee organized a SafaiMitra Suraksha Shivir at the MAC Auditorium'/>
+
 
       <Events_InitCard1
-        image={e5}
-        date='December 20, 2020'
-        event='Spandan- Talk by Archana Garodia Gupta'
-        desc='In Spandan, Mrs Aechana garodia Gupta talked about how rural transformation Acknowledging women and much more' />
+        image={sociothon}
+        date='October 11, 2025'
+        event='Sociothon 6.0'
+        desc='Unnat Bharat Abhiyan, IIT Roorkee, inspired by the vision of transformational change in rural development, is here with an electrifying opportunity' />
+
+      
+    <div className='cards'>
+      <Events_InitCard1
+        image={sociothonResult}
+        date='October 11, 2025'
+        event='Sociothon Result 6.0'
+        desc='Team UBA, IIT Roorkee, proudly organized Sociothon, a dynamic and socially driven competition that witnessed enthusiastic participation from more than 75 teams comprising 250+ freshers.' />
 
     </div>
-    <div className=''>
-
-
-    </div>
-    <div>
-
-    </div>
-    <div>
-
     </div>
 
   </div>;
