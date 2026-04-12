@@ -18,7 +18,7 @@ export const Header = () => {
 
   return (
     <>
-      <header className="kuchbhi2" style = {{justifyContent:"center"}}>
+      <header className="kuchbhi2" style={{ justifyContent: "center" }}>
         <Container className="kuchbhi2" fluid>
           <Row
             className="header-part"
@@ -49,7 +49,7 @@ export const Header = () => {
         </Container>
         <Navbar
           className="navBar"
-          style={{ background: "#ecc731" ,justifyContent: "center" ,margin:"0 auto" }}
+          style={{ background: "#ecc731", justifyContent: "center", margin: "0 auto" }}
           expand="lg"
           expanded={expanded}
         >
@@ -100,12 +100,13 @@ export const Header = () => {
                   <NavDropdown.Divider />
                   <NavDropdown title="Student Teams" id="nested-dropdown">
                     <NavDropdown.Item href="/Studentteam25_26">Team 2025-26</NavDropdown.Item>
+                    <NavDropdown.Item href="/Studentteam24_25">Team 2024-25</NavDropdown.Item>
                     <NavDropdown.Item href="/studentteam">Team 2023-24</NavDropdown.Item>
                     <NavDropdown.Item href="/Studentteam22_23">Team 2022-23</NavDropdown.Item>
                     <NavDropdown.Item href="/Studentteam21_22">Team 2021-22</NavDropdown.Item>
                     <NavDropdown.Item href="/Studentteam20_21">Team 2020-21</NavDropdown.Item>
                   </NavDropdown>
-                  </NavDropdown>
+                </NavDropdown>
                 <Nav.Link className="mx-3" href="/contact">
                   Contact
                 </Nav.Link>

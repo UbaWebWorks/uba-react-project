@@ -24,6 +24,7 @@ import { Health } from "features/initiatives/components/Health.js";
 import { Education } from "features/initiatives/components/Education.js";
 import { SHGs } from "features/initiatives/components/SHGs.js";
 import Team25_26 from "features/home/components/Team25_26";
+import Team24_25 from "features/home/components/Team24_25";
 
 const Router = () => {
   return (
@@ -42,6 +43,7 @@ const Router = () => {
         <Route path='/Studentteam21_22' exact element={<Team21_22 />}></Route>
         <Route path='/Studentteam25_26' exact element={<Team25_26 />}></Route>
         <Route path='/Studentteam20_21' exact element={<Team2021 />}></Route>
+        <Route path='/Studentteam24_25' exact element={<Team24_25 />}></Route>
         <Route path='/waste_management' exact element={<Waste_Management />}></Route>
         <Route path='/education' exact element={<Education />}></Route>
         <Route path='/agriculture' exact element={<Agriculture />}></Route>
