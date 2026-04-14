@@ -26,6 +26,26 @@ export const InitCard_Events = () => {
         </div>
       </div>
     </div>
+    <div className='cards'> 
+      <Events_InitCard1
+        image={sociothonResult}
+        date='October 11, 2025'
+        event='Sociothon Result 6.0'
+        desc='Team UBA, IIT Roorkee, proudly organized Sociothon, a dynamic and socially driven competition that witnessed enthusiastic participation from more than 75 teams comprising 250+ freshers.' />
+
+      <Events_InitCard1
+        image={sociothon}
+        date='October 11, 2025'
+        event='Sociothon 6.0'
+        desc='Unnat Bharat Abhiyan, IIT Roorkee, inspired by the vision of transformational change in rural development, is here with an electrifying opportunity' />
+
+      <Events_InitCard1
+        image={swachhata}
+        date='September 27, 2024'
+        event='Swachhata hi sewa'
+        desc='As part of the Swachhata Hi Seva (SHS) 2024 campaign, IIT Roorkee organized a SafaiMitra Suraksha Shivir at the MAC Auditorium'/>
+
+    </div>
     <div className='cards'>
       <Events_InitCard1
         image={carr}
@@ -66,29 +86,6 @@ export const InitCard_Events = () => {
         date='December 20, 2020'
         event='Spandan- Talk by Archana Garodia Gupta'
         desc='In Spandan, Mrs Aechana garodia Gupta talked about how rural transformation Acknowledging women and much more' />
-      
-      <Events_InitCard1
-        image={swachhata}
-        date='September 27, 2024'
-        event='Swachhata hi sewa'
-        desc='As part of the Swachhata Hi Seva (SHS) 2024 campaign, IIT Roorkee organized a SafaiMitra Suraksha Shivir at the MAC Auditorium'/>
-
-
-      <Events_InitCard1
-        image={sociothon}
-        date='October 11, 2025'
-        event='Sociothon 6.0'
-        desc='Unnat Bharat Abhiyan, IIT Roorkee, inspired by the vision of transformational change in rural development, is here with an electrifying opportunity' />
-
-      
-    <div className='cards'>
-      <Events_InitCard1
-        image={sociothonResult}
-        date='October 11, 2025'
-        event='Sociothon Result 6.0'
-        desc='Team UBA, IIT Roorkee, proudly organized Sociothon, a dynamic and socially driven competition that witnessed enthusiastic participation from more than 75 teams comprising 250+ freshers.' />
-
-    </div>
     </div>
 
   </div>;
