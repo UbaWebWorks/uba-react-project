@@ -27,7 +27,7 @@ export const Puranpur = () => {
           <section className="how-can-help1 what-we1">
             <div className="container tittle1">
               <Row>
-                <Col className="col-md-8 with-map1">
+                <Col className="col">
                   <span className="big-text1">
                     <small>About Puranpur</small>
                   </span>
