@@ -31,19 +31,19 @@ export const Contact = () =>{
 		<div className="col-md-9">
 			<div className="contact-form">
 				<div className="form-group">
-				  <label className="control-label col-sm-12 text-muted" for="fname">Address : Student Activity Center,Unnat Bharat Abhiyan, IIT Roorkee, Uttarakhand</label>
+				  <label className="control-label col-sm-12 text-muted" htmlFor="fname">Address : Student Activity Center,Unnat Bharat Abhiyan, IIT Roorkee, Uttarakhand</label>
 				</div>
 				<br />
 				<br />
 				<div className="form-group">
-				  <label className="control-label col-sm-12 text-muted" for="email">PHONE :
+				  <label className="control-label col-sm-12 text-muted" htmlFor="email">PHONE :
 (+91) 7452971049</label>
                 <br />
 				<br />
 				<br />
 				</div>
 				<div className="form-group">
-				  <label className="control-label col-sm-12 text-muted" for="comment">EMAIL :
+				  <label className="control-label col-sm-12 text-muted" htmlFor="comment">EMAIL :
 uba@iitr.ac.in</label>
 				</div>
 				<br />
