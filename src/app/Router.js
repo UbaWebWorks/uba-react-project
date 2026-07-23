@@ -25,6 +25,7 @@ import { Education } from "features/initiatives/components/Education.js";
 import { SHGs } from "features/initiatives/components/SHGs.js";
 import Team25_26 from "features/home/components/Team25_26";
 import Team24_25 from "features/home/components/Team24_25";
+import Team26_27 from 'features/home/components/Team26_27'
 
 const Router = () => {
   return (
@@ -42,6 +43,7 @@ const Router = () => {
         <Route path='/Studentteam22_23' exact element={<Team22_23 />}></Route>
         <Route path='/Studentteam21_22' exact element={<Team21_22 />}></Route>
         <Route path='/Studentteam25_26' exact element={<Team25_26 />}></Route>
+        <Route path='/Studentteam26_27' exact element={<Team26_27 />}></Route>
         <Route path='/Studentteam20_21' exact element={<Team2021 />}></Route>
         <Route path='/Studentteam24_25' exact element={<Team24_25 />}></Route>
         <Route path='/waste_management' exact element={<Waste_Management />}></Route>

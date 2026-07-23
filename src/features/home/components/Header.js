@@ -99,6 +99,7 @@ export const Header = () => {
                   <NavDropdown.Item href="/faculty">Faculty</NavDropdown.Item>
                   <NavDropdown.Divider />
                   <NavDropdown title="Student Teams" id="nested-dropdown">
+                    <NavDropdown.Item href="/Studentteam26_27">Team 2026-27</NavDropdown.Item>
                     <NavDropdown.Item href="/Studentteam25_26">Team 2025-26</NavDropdown.Item>
                     <NavDropdown.Item href="/Studentteam24_25">Team 2024-25</NavDropdown.Item>
                     <NavDropdown.Item href="/studentteam">Team 2023-24</NavDropdown.Item>
