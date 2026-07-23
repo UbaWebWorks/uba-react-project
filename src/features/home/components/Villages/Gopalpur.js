@@ -7,10 +7,9 @@ import { InitCard } from 'features/home/js/InitCard';
 import eye from "assets/images/Initiatives/Health/eye.jpeg";
 import init1 from "assets/images/Gopalpur/Sanitary_Napkin.jpg";
 import init2 from "assets/images/Gopalpur/Sanitary_Napkin.jpg";
-import ShubhamK from "assets/images/StudentTeam/Shubham_kumar.jpg";
-import Rasika from "assets/images/StudentTeam/Rasika.jpeg";
+import pranjal from "assets/images/StudentTeam/26-27/pranjal.jpg";
+import soniya from "assets/images/StudentTeam/26-27/soniya.webp";
 import '../css/Villages.css'
-
 
 export const Gopalpur = () => {
   return (
@@ -301,23 +300,23 @@ export const Gopalpur = () => {
         <Row>
         <div className="col-lg-5" style={{ marginLeft: "auto" }}>
           <StudentIdentityCard
-              studImg={ShubhamK}
-              name="Shubham Kumar"
+              studImg={pranjal}
+              name="Pranjal Gupta"
               pos="Village Co-ordinator"
               village="Gopalpur"
-              email="Email: s_kumar5@me.iitr.ac.in"
-              linkedIn="https://www.linkedin.com/in/shubham-kumar-305b52240"
+              email="Email: pranjal_g@ce.iitr.ac.in"
+              linkedIn="https://www.linkedin.com/in/pranjal-gupta-8125a4385?utm_source=share_via&utm_content=profile&utm_medium=member_android"
             />
             <br />
           </div>
           <div className="col-lg-5" style={{ marginLeft: "auto" }}>
           <StudentIdentityCard
-              studImg={Rasika}
-              name="Rasika Kaple"
+              studImg={soniya}
+              name="Soniya Banwasi"
               pos="Village Co-ordinator"
               village="Gopalpur"
-              linkedIn="https://www.linkedin.com/in/rasikakaple/"
-              email = "Email: k_rdnyaneshwar@me.iitr.ac.in"
+              linkedIn=""
+              email = "Email: soniya_b@ma.iitr.ac.in"
               />
             <br />
           </div>
