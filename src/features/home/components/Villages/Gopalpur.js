@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Table } from "react-bootstrap";
-import PDF from "assets/docs/UBA Newsletter 21-22.pdf";
+import PDF from "assets/docs/UBA_NewsLetter_25-26.pdf";
 import map1 from "assets/images/Gopalpur/Sanitary_Napkin.jpg";
 import { StudentIdentityCard } from 'features/home/js/StudentIdentityCard';
 import { InitCard } from 'features/home/js/InitCard';

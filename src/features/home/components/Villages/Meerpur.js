@@ -1,7 +1,7 @@
 //kmkm
 import React from "react";
 import { Container, Row, Col, Table } from "react-bootstrap";
-import PDF from "assets/docs/UBA Newsletter 21-22.pdf"
+import PDF from "assets/docs/UBA_NewsLetter_25-26.pdf"
 import map1 from "assets/images/Meerpur/map1.jpg";
 import map2 from "assets/images/Meerpur/map2.jpg";
 import init9 from "assets/images/Meerpur/ICT_Meerpur/1.png";
@@ -9,8 +9,28 @@ import init10 from "assets/images/Meerpur/ICT_Meerpur/2.png";
 import init11 from "assets/images/Meerpur/ICT_Meerpur/4.png";
 import { StudentIdentityCard } from 'features/home/js/StudentIdentityCard';
 import { InitCard } from 'features/home/js/InitCard';
+import utkarsh from "assets/images/StudentTeam/26-27/utkarsh.jpg";
+import mahak from "assets/images/StudentTeam/26-27/Mahak.jpg";
 import '../css/Villages.css'
 
+const students = [
+  {
+    name: "Utkarsh Bhardwaj",
+    team: "Meerpur",
+    pos: "Village Coordinator Meerpur",
+    email: "utkarsh_b@ch.iitr.ac.in",
+    linkedIn: "",
+    studImg: utkarsh
+  },
+  {
+    name: "Mahak",
+    team: "Meerpur",
+    pos: "Village Coordinator Meerpur",
+    email: "mahak1@ee.iitr.ac.in",
+    linkedIn: "",
+    studImg: mahak
+  },
+]
 
 export const Meerpur = () => {
   // Define missing variables
@@ -25,7 +45,7 @@ export const Meerpur = () => {
           <div className="container tittle1 bg-overlay1">
             <div className="my-5" style={{ textAlign: "center" }}>
               <h3>MEERPUR</h3>
-              <p><a href="/" style={{textDecoration:"None",color:"grey"}}>HOME</a>/VILLAGE/MEERPUR</p>
+              <p><a href="/" style={{ textDecoration: "None", color: "grey" }}>HOME</a>/VILLAGE/MEERPUR</p>
             </div>
           </div>
         </Row>
@@ -66,21 +86,21 @@ export const Meerpur = () => {
                   <p></p>
                 </Col>
 
-                <div  style={{alignItems:'center',alignContent:'center',width:'full' , marginTop:'2rem'}}>
-                <div  style={{alignItems:'center',alignContent:'center'}}>
-                  <div className="program1 w-full">
-                    <div className="inner1">
-                      <h3>
-                        Meerpur
-                        <br />
-                        <br />
-                        <span>Village Action PLan</span>
-                      </h3>
-                      <a href={PDF} className="btn btn-1" target="_blank"  >
-                        FOR MORE DETAILS
-                      </a>
+                <div style={{ alignItems: 'center', alignContent: 'center', width: 'full', marginTop: '2rem' }}>
+                  <div style={{ alignItems: 'center', alignContent: 'center' }}>
+                    <div className="program1 w-full">
+                      <div className="inner1">
+                        <h3>
+                          Meerpur
+                          <br />
+                          <br />
+                          <span>Village Action PLan</span>
+                        </h3>
+                        <a href={PDF} className="btn btn-1" target="_blank"  >
+                          FOR MORE DETAILS
+                        </a>
+                      </div>
                     </div>
-                  </div>
                   </div>
                 </div>
               </Row>
@@ -233,7 +253,7 @@ export const Meerpur = () => {
       <br />
       <br />
 
-    
+
       <Container style={{ background: "#f7f8f9" }}>
         <h1 className="text-center headingStudent1 my-5">Initiatives</h1>
         <div className="row">
@@ -275,42 +295,24 @@ export const Meerpur = () => {
           </div>
         </div>
       </Container>
-      <Container style={{ background: "#f7f8f9",alignContent:'center' }}>
+      <Container style={{ background: "#f7f8f9", alignContent: 'center' }}>
         <h1 className="text-center headingStudent1 my-5">Village Team</h1>
         <Row>
-        <div className="col-lg-5" style={{ marginLeft: "auto" }}>
-          <StudentIdentityCard
-              studImg={Divya}
-              name="Divya Aggarwal"
-              pos="Village Co-ordinator"
-              village="Meerpur"
-              email="Email: d_aggarwal@hs.iitr.ac.in"
-              linkedIn="https://www.linkedin.com/in/divya-aggarwal-28bb3122a"
-            />
-            <br />
-          </div>
-          <div className="col-lg-5" style={{ marginLeft: "auto" }}>
-          <StudentIdentityCard
-              studImg={Anand}
-              name="Anand Kumar"
-              pos="Village Co-ordinator"
-              village="Meerpur"
-              email = "Email: a_kumar9@me.iitr.ac.in"
-              linkedIn="https://www.linkedin.com/in/anand-kumar-23a170224/"
-            />
-            <br />
-          </div>
-          <div className="col-lg-5" id ="last-element" style={{ margin : "auto" }}>
-          <StudentIdentityCard
-              studImg={Harsh_jha}
-              name="Harsh Kumar Jha"
-              pos="Village Co-ordinator"
-              village="Meerpur"
-              email = "Email: h_kjha@ee.iitr.ac.in"
-              linkedIn="https://www.linkedin.com/in/harsh-kumar-jha-369303220"
-            />
-            <br />
-          </div>
+          {students.map((e, i) => {
+            return (
+              <div id={i === students.length - 1 && 'last-element'} className="col-lg-5" style={{ marginLeft: "auto" }}>
+                <StudentIdentityCard
+                  studImg={e.studImg}
+                  name={e.name}
+                  pos="Village Co-ordinator"
+                  village="Meerpur"
+                  email={`Email: ${e.email}`}
+                  linkedIn={e.linkedIn}
+                />
+                <br />
+              </div>
+            )
+          })}
         </Row>
       </Container>
       <Row className="text-center my-4">

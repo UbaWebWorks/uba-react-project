@@ -3,16 +3,35 @@ import { Container, Row, Col, Table } from "react-bootstrap";
 import { StudentIdentityCard } from 'features/home/js/StudentIdentityCard';
 import { InitCard } from 'features/home/js/InitCard';
 import map1 from "assets/images/chharba_uttarakhand_uba_landuse_map.jpg";
-import PDF from "assets/docs/UBA Newsletter 21-22.pdf";
+import PDF from "assets/docs/UBA_NewsLetter_25-26.pdf";
 import init1 from "assets/images/Beladi/CycleDonation/1.jpg";
 import init2 from "assets/images/Beladi/CycleDonation/2.jpg";
 import init3 from "assets/images/Beladi/SelfDefence/1.jpeg";
-import Komalpreet from "assets/images/StudentTeam/Komalpreet.jpg";
-import Radhika from "assets/images/StudentTeam/Radhika_agr.jpg";
+import ganesh from "assets/images/StudentTeam/26-27/ganesh.jpg";
+import chintu from "assets/images/StudentTeam/26-27/Chintu.jpg";
 import '../css/Villages.css'
 
+const students = [
+  {
+    name: "Jakkala Ganesh",
+    team: "Rithaura Grunt",
+    pos: "Village Coordinator Rithaura-Grunt",
+    email: "ganesh_j@ce.iitr.ac.in",
+    linkedIn: "",
+    studImg: ganesh
+  },
+  {
+    name: "Chintu",
+    team: "Rithaura Grunt",
+    pos: "Village Coordinator Rithaura-Grunt",
+    email: "chintu1@ch.iitr.ac.in",
+    linkedIn: "",
+    studImg: chintu
+  }
+]
 
 export const Rithaura = () => {
+
   return (
     <>
       <div>
@@ -20,7 +39,7 @@ export const Rithaura = () => {
           <div className="container tittle1 bg-overlay1">
             <div className="my-5" style={{ textAlign: "center" }}>
               <h3>RITHAURA-GRUNT</h3>
-              <p><a href="/" style={{textDecoration:"None",color:"grey"}}>HOME</a>/VILLAGE/RITHAURA-GRUNT</p>
+              <p><a href="/" style={{ textDecoration: "None", color: "grey" }}>HOME</a>/VILLAGE/RITHAURA-GRUNT</p>
             </div>
           </div>
         </Row>
@@ -41,7 +60,7 @@ export const Rithaura = () => {
                     }}
                   />
                   <p align="justify">
-                  Rithaura-Grunt is a large village located in the Vikasnagar block
+                    Rithaura-Grunt is a large village located in the Vikasnagar block
                     of Dehradun district, Uttarakhand with a total of 1425
                     families residing. According to Census 2011, the location
                     code or village code of Rithaura-Grunt village is 045088. Rithaura-Grunt
@@ -52,7 +71,7 @@ export const Rithaura = () => {
                     stats, Rithaura-Grunt is the gram panchayat of Rithaura-Grunt village.
                   </p>
                   <p align="justify">
-                  Rithaura-Grunt, inspite of being in Uttarakhand, is devoid of tough
+                    Rithaura-Grunt, inspite of being in Uttarakhand, is devoid of tough
                     and rocky terrains. It is in the foothills of the Himalayan
                     Terrains. Because of this, it is fairly accessible and can
                     be reached easily. Rithaura-Grunt is primarily divided into 3
@@ -62,7 +81,7 @@ export const Rithaura = () => {
                     Uttarakhand take shape.
                   </p>
                   <p align="justify">
-                  Children of Rithaura-Grunt can receive education in 4 primary
+                    Children of Rithaura-Grunt can receive education in 4 primary
                     schools, 3 madrasas, 1 Government Inter College (GIC), and
                     multiple private schools in and out of the village. All in
                     all, most children receive education and hence are more
@@ -70,13 +89,13 @@ export const Rithaura = () => {
                     the shaping of the country.
                   </p>
                   <p align="justify">
-                  Schedule Caste (SC) constitutes 5.78 % while Schedule Tribe
+                    Schedule Caste (SC) constitutes 5.78 % while Schedule Tribe
                     (ST) are 0.28 % of total population in Rithaura-Grunt village. In
                     Rithaura-Grunt village out of the total population, 1935 were
                     engaged in working activities.
                   </p>
                   <p align="justify">
-                  One of the prime ingredients for growth of a place is
+                    One of the prime ingredients for growth of a place is
                     present in Rithaura-Grunt. That factor is religious and cultural
                     diversity. Although the majority of people are Hindus, there
                     are about 40% Muslims and 3% Sikhs. But, the village lags
@@ -84,7 +103,7 @@ export const Rithaura = () => {
                     Uttarakhand is 963, while in Rithaura-Grunt it is just 918.
                   </p>
                   <p align="justify">
-                  The village has all the primary shops, including clothing,
+                    The village has all the primary shops, including clothing,
                     food, stationary and general appliances. It also has a
                     branch of PNB bank. This means that almost every family in
                     the village, not every adult, has a bank account and a debit
@@ -93,8 +112,8 @@ export const Rithaura = () => {
                   <p></p>
                 </Col>
 
-                <div  style={{alignItems:'center',alignContent:'center',width:'full' , marginTop:'2rem'}}>
-                <div  style={{alignItems:'center',alignContent:'center'}}></div>
+                <div style={{ alignItems: 'center', alignContent: 'center', width: 'full', marginTop: '2rem' }}>
+                  <div style={{ alignItems: 'center', alignContent: 'center' }}></div>
                   <div className="program1 w-full">
                     <div className="inner1">
                       <h3>
@@ -108,7 +127,7 @@ export const Rithaura = () => {
                       </a>
                     </div>
                   </div>
-                  </div>
+                </div>
               </Row>
             </div>
           </section>
@@ -178,7 +197,7 @@ export const Rithaura = () => {
               </thead>
               <tbody>
                 <tr>
-                <td>Total no. of Houses</td>
+                  <td>Total no. of Houses</td>
                   <td>1425</td>
                   <td>--</td>
                   <td>--</td>
@@ -293,29 +312,23 @@ export const Rithaura = () => {
           </div>
         </div>
       </Container>
-      <Container style={{ background: "#f7f8f9" , alignContent:'center' }}>
+      <Container style={{ background: "#f7f8f9", alignContent: 'center' }}>
         <h1 className="text-center headingStudent1 my-5">Village Team</h1>
         <Row>
-        <div className="col-lg-5" style={{ marginLeft: "auto" }}>
-          <StudentIdentityCard
-              studImg={Komalpreet}
-              name="Komalpreet Kaur"
-              pos="Village Co-ordinator"
-              village="Rithaura-Grunt"
-              email="Email: k_kaur@me.iitr.ac.in"
-              linkedIn="https://www.linkedin.com/in/jyotsna-singh-072ba4230"
-            />
-          </div>
-          <div className="col-lg-5" style={{ marginLeft: "auto" }}>
-          <StudentIdentityCard
-              studImg={Radhika}
-              name="Radhika Agarwal"
-              pos="Village Co-ordinator"
-              village="Rithaura-Grunt"
-              email = "Email: r_agarwal@hs.iitr.ac.in"
-              linkedIn="https://www.linkedin.com/in/radhika-agarwal-08a919229/"
-            />
-          </div>
+          {students.map(e => {
+            return (
+              <div className="col-lg-5" style={{ marginLeft: "auto" }}>
+                <StudentIdentityCard
+                  studImg={e.studImg}
+                  name={e.name}
+                  pos="Village Co-ordinator"
+                  village="Rithaura-Grunt"
+                  email={`Email: ${e.email}`}
+                  linkedIn={e.linkedIn}
+                />
+              </div>
+            )
+          })}
         </Row>
       </Container>
       <Row className="text-center my-4">

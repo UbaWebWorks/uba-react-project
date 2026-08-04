@@ -1,25 +1,34 @@
 import React from "react";
 import { Container, Row, Col, Table } from "react-bootstrap";
-import PDF from "assets/docs/UBA Newsletter 21-22.pdf"
+import PDF from "assets/docs/UBA_NewsLetter_25-26.pdf"
 import map1 from "assets/images/Beladi/map1.jpg"
 import init6 from "assets/images/Beladi/CycleDonation/1.jpg"
 import init7 from "assets/images/Beladi/CycleDonation/2.jpg"
 import sci from "assets/images/Beladi/CattleVaccination/1.jpg"
-import Jyoti from "assets/images/StudentTeam/Jyoti.jpg"
 import Rishabh from "assets/images/StudentTeam/Rishabh.jpeg"
 import { StudentIdentityCard } from 'features/home/js/StudentIdentityCard';
 import { InitCard } from 'features/home/js/InitCard';
+import arpit from "assets/images/StudentTeam/26-27/arpit.jpg";
 import '../css/Villages.css'
+
+const student = {
+  name: "Arpit Yadav",
+  team: "Beladi",
+  pos: "Village Coordinator Beladi",
+  email: "arpit_y@mt.iitr.ac.in",
+  linkedIn: "https://www.linkedin.com/in/arpit-yadav-4720b2318/",
+  studImg: arpit
+}
 
 export const Beladi = () => {
   return (
     <>
-      <div  style={{alignContent:'center' , alignItems:'center' }}>
+      <div style={{ alignContent: 'center', alignItems: 'center' }}>
         <Row>
           <div className="container tittle1 bg-overlay1" >
             <div className="my-5" style={{ textAlign: "center" }}>
               <h3>BELADI</h3>
-              <p><a href="/" style={{textDecoration:"None",color:"grey"}}>HOME</a>/VILLAGE/BELADI</p>
+              <p><a href="/" style={{ textDecoration: "None", color: "grey" }}>HOME</a>/VILLAGE/BELADI</p>
             </div>
           </div>
         </Row>
@@ -89,22 +98,22 @@ export const Beladi = () => {
 
                   <p></p>
                 </Col>
-                <div  style={{alignItems:'center',alignContent:'center',width:'full' , marginTop:'2rem'}}>
-                <div  style={{alignItems:'center',alignContent:'center'}}>
-                  <div className="program1 w-full">
-                    <div className="inner1">
-                      <h3>
-                        Beladi 
-                        <br />
-                        <br />
-                        <span>Village Action PLan</span>
-                      </h3>
-                      <a href={PDF} target = "_blank" className="btn btn-1">
-                        FOR MORE DETAILS
-                      </a>
+                <div style={{ alignItems: 'center', alignContent: 'center', width: 'full', marginTop: '2rem' }}>
+                  <div style={{ alignItems: 'center', alignContent: 'center' }}>
+                    <div className="program1 w-full">
+                      <div className="inner1">
+                        <h3>
+                          Beladi
+                          <br />
+                          <br />
+                          <span>Village Action PLan</span>
+                        </h3>
+                        <a href={PDF} target="_blank" className="btn btn-1">
+                          FOR MORE DETAILS
+                        </a>
+                      </div>
                     </div>
                   </div>
-                </div>
                 </div>
               </Row>
             </div>
@@ -292,27 +301,27 @@ export const Beladi = () => {
           </div>
         </div>
       </Container>
-      <Container style={{ background: "#f7f8f9" , alignContent:'center',alignItems:'center' }}>
+      <Container style={{ background: "#f7f8f9", alignContent: 'center', alignItems: 'center' }}>
         <h1 className="text-center headingStudent1 my-5">Village Team</h1>
         <Row>
-        <div className="col-lg-5" style={{ marginLeft: "auto" }}>
-          <StudentIdentityCard
-              studImg={Jyoti}
-              name="Jyotsna Singh"
+          <div className="col-lg-5" style={{ marginLeft: "auto" }}>
+            <StudentIdentityCard
+              studImg={student.studImg}
+              name={student.name}
               pos="Village Co-ordinator"
               village="Beladi"
-              email="Email: j_singh@ph.iitr.ac.in"
-              linkedIn="https://www.linkedin.com/in/jyotsna-singh-072ba4230"
+              email={`Email: ${student.email}`}
+              linkedIn={student.linkedIn}
             />
             <br />
           </div>
           <div className="col-lg-5" style={{ marginLeft: "auto" }}>
-          <StudentIdentityCard
+            <StudentIdentityCard
               studImg={Rishabh}
               name="Rishabh Kosta"
               pos="Village Co-ordinator"
               village="Beladi"
-              email = "Email: r_kosta@me.iitr.ac.in"
+              email="Email: r_kosta@me.iitr.ac.in"
               linkedIn="https://www.linkedin.com/in/rishabh-kosta-39703b237/overlay/photo/"
             />
             <br />

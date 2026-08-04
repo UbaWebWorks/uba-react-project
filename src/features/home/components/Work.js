@@ -1,6 +1,8 @@
 import React from "react";
 import "./css/Work.css";
-import PDF from "assets/docs/UBA Newsletter 21-22.pdf"
+import PDF from "assets/docs/UBA_NewsLetter_25-26.pdf"
+import prevPDF from "assets/docs/UBA_NewsLetter_21-22.pdf"
+
 export const Work = () => {
   return (
     <div>
@@ -48,10 +50,10 @@ export const Work = () => {
                       15 initiatives{" "}
                     </span>
                   </h3>
-                  <a href={PDF} className="btn" target="_blank">
+                  <a href={PDF} className="btn" target="_blank" rel="noreferrer">
                     Latest Issue
                   </a>{" "}
-                  <a href="assets/docs/Newsletter1.pdf" className="btn btn-1">
+                  <a href={prevPDF} className="btn btn-1" target="_blank" rel="noreferrer">
                     Previous Issue
                   </a>{" "}
                 </div>

@@ -3,13 +3,22 @@ import { Container, Row, Col } from "react-bootstrap";
 import { StudentIdentityCard } from 'features/home/js/StudentIdentityCard';
 import { InitCard } from 'features/home/js/InitCard';
 import map1 from "assets/images/Puranpur/map1.jpg";
-import PDF from "assets/docs/UBA Newsletter 21-22.pdf";
+import PDF from "assets/docs/UBA_NewsLetter_25-26.pdf";
 import food_kit from "assets/images/Puranpur/recreational_activities.jpg";
 import FPO from "assets/images/Puranpur/FPO awarness.jpg";
 import Ecobricks from "assets/images/Ecobricks.jpg";
-import Anuj from "assets/images/StudentTeam/Anuj.jpeg";
 import Charu from "assets/images/StudentTeam/Charu.jpg";
+import piyush from "assets/images/StudentTeam/26-27/Piyush meena.jpg";
 import '../css/Villages.css'
+
+const student = {
+  name: "Piyush Meena",
+  team: "Puranpur",
+  pos: "Village Coordinator Puranpur",
+  email: "Piyush_m1@mt.iitr.ac.in",
+  linkedIn: "",
+  studImg: piyush
+}
 
 export const Puranpur = () => {
   return (
@@ -164,12 +173,12 @@ export const Puranpur = () => {
         <Row>
           <div className="col-lg-5" style={{ marginLeft: "auto" }}>
             <StudentIdentityCard
-              studImg={Anuj}
-              name="Anuj Kumar"
+              studImg={student.studImg}
+              name={student.name}
               pos="Village Co-ordinator"
               village="Puranpur"
-              email="Email: a_kumar4@cy.iitr.ac.in"
-              linkedIn="https://www.linkedin.com/in/anuj-kumar-1aa590230"
+              email={`Email: ${student.email}`}
+              linkedIn={student.linkedIn}
             />
             <br />
           </div>
