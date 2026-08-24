@@ -45,7 +45,7 @@ const members = [
     { name: "Vidhi Jain", email: "vidhi_j@me.iitr.ac.in", pos: "Village Coordinator Rithaura-Grunt", linkedIn: "https://uba.iitr.ac.in/www.linkedin.com/in/vidhi-jain-9282802a7", studImg: vidhijain },
     { name: "Muskan Mimrot", email: "muskan_m@ce.iitr.ac.in", pos: "Village Coordinator Puranpur", linkedIn: "https://in.linkedin.com/in/muskan-mimrot-874181348", studImg: muskanmimrot },
     { name: "Priyanshu Chauhan", email: "priyanshu_c@ma.iitr.ac.in", pos: "Village Coordinator Puranpur", linkedIn: "https://www.linkedin.com/in/priyanshu-chauhan-7bb68b1b0/?originalSubdomain=in", studImg: priyanshuchauhan }
-]
+].sort((a, b) => a.name.localeCompare(b.name));
 const Team25_26 = () => {
     return (
         <>

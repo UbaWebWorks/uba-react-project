@@ -69,11 +69,11 @@ export const Header = () => {
                   id="initiatives-dropdown"
                   renderMenuOnMount={true}
                 >
+                  <NavDropdown.Item href="/agriculture">Agriculture</NavDropdown.Item>
                   <NavDropdown.Item href="/education">Education</NavDropdown.Item>
                   <NavDropdown.Item href="/health">Health</NavDropdown.Item>
-                  <NavDropdown.Item href="/agriculture">Agriculture</NavDropdown.Item>
-                  <NavDropdown.Item href="/waste_management">Waste Management</NavDropdown.Item>
                   <NavDropdown.Item href="/shgs">SHGs</NavDropdown.Item>
+                  <NavDropdown.Item href="/waste_management">Waste Management</NavDropdown.Item>
                 </NavDropdown>
                 <NavDropdown
                   className="mx-3"
@@ -82,10 +82,10 @@ export const Header = () => {
                   renderMenuOnMount={true}
                 >
                   <NavDropdown.Item href="/beladi">Beladi</NavDropdown.Item>
-                  <NavDropdown.Item href="/rithaura">Rithaura-Grunt</NavDropdown.Item>
                   <NavDropdown.Item href="/gopalpur">Gopalpur</NavDropdown.Item>
                   <NavDropdown.Item href="/meerpur">Meerpur</NavDropdown.Item>
                   <NavDropdown.Item href="/puranpur">Puranpur</NavDropdown.Item>
+                  <NavDropdown.Item href="/rithaura">Rithaura-Grunt</NavDropdown.Item>
                 </NavDropdown>
                 <Nav.Link className="mx-3" href="/events">
                   Events

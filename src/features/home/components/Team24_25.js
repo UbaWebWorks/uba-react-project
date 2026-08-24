@@ -42,7 +42,7 @@ const members = [
     { name: "Harshita Gill", email: "harshita_g@ce.iitr.ac.in", pos: "Village Coordinator Puranpur", linkedIn: "https://www.linkedin.com/in/harshita-gill-275208251", studImg: harshita },
     { name: "Manish Meena", email: "manish_km@ee.iitr.ac.in", pos: "Village Coordinator Puranpur", linkedIn: "https://www.linkedin.com/in/manish-meena-36aa46325", studImg: manish },
     { name: "Nancy Chouksey", email: "nancy_c@ece.iitr.ac.in", pos: "Village Coordinator Puranpur", linkedIn: "https://www.linkedin.com/in/nancy-chouksey-319661271", studImg: nancy }
-];
+].sort((a, b) => a.name.localeCompare(b.name));
 
 const Team24_25 = () => {
     return (

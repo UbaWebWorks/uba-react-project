@@ -21,6 +21,8 @@ import Ramandeep from "assets/images/StudentTeam/Ramandeep.jpg";
 import { Row, Container } from "react-bootstrap";
 import { StudentIdentityCard } from 'features/home/js/StudentIdentityCard';
 import { BsFillHeartFill } from 'react-icons/bs';
+
+
 export const Team22_23 = () => {
   return (
     <>

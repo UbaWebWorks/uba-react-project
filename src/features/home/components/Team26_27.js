@@ -13,7 +13,7 @@ import shreyansh from "assets/images/StudentTeam/26-27/Shreyansh-24113120.jpg";
 import tapas from "assets/images/StudentTeam/26-27/tapas_gupta.jpg";
 import chandan from "assets/images/StudentTeam/26-27/chandan.PNG";
 import arpit from "assets/images/StudentTeam/26-27/arpit.jpg";
-import soniya from "assets/images/StudentTeam/26-27/soniya.webp";    
+import soniya from "assets/images/StudentTeam/26-27/soniya.webp";
 import utkarsh from "assets/images/StudentTeam/26-27/utkarsh.jpg";
 import vasundhara from "assets/images/StudentTeam/26-27/vasundhara.png";
 import lalit from "assets/images/StudentTeam/26-27/lalit.jpg";
@@ -99,7 +99,7 @@ const members = [
         name: "Sneha Shukla",
         team: "Beladi",
         pos: "Village Coordinator Beladi",
-        email: "",
+        email: "sneha_s@ce.iitr.ac.in",
         linkedIn: "",
         studImg: sneha
     },
@@ -163,11 +163,11 @@ const members = [
         name: "Divya Agrawal",
         team: "Puranpur",
         pos: "Village Coordinator Puranpur",
-        email: "",
+        email: "divya_a@ch.iitr.ac.in",
         linkedIn: "",
         studImg: divya
     }
-];
+].sort((a, b) => a.name.localeCompare(b.name));
 
 
 const Team25_26 = () => {
