@@ -125,7 +125,6 @@ export const Team21_22 = () => {
               name="Abhinav Saini"
               pos="Village Co-ordinator"
               village="Chandpur"
-              
               linkedIn="https://www.linkedin.com/in/abhinav-saini-7a860519b/"
             />
           </div>
