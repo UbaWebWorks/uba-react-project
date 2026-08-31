@@ -5,20 +5,27 @@ import map1 from "assets/images/Beladi/map1.jpg"
 import init6 from "assets/images/Beladi/CycleDonation/1.jpg"
 import init7 from "assets/images/Beladi/CycleDonation/2.jpg"
 import sci from "assets/images/Beladi/CattleVaccination/1.jpg"
-import Rishabh from "assets/images/StudentTeam/Rishabh.jpeg"
 import { StudentIdentityCard } from 'features/home/js/StudentIdentityCard';
 import { InitCard } from 'features/home/js/InitCard';
 import arpit from "assets/images/StudentTeam/26-27/arpit.jpg";
+import sneha from "assets/images/StudentTeam/26-27/sneha.jpg";
 import '../css/Villages.css'
 
-const student = {
+const students = [{
   name: "Arpit Yadav",
   team: "Beladi",
   pos: "Village Coordinator Beladi",
   email: "arpit_y@mt.iitr.ac.in",
   linkedIn: "https://www.linkedin.com/in/arpit-yadav-4720b2318/",
   studImg: arpit
-}
+}, {
+  name: "Sneha Shukla",
+  team: "Beladi",
+  pos: "Village Coordinator Beladi",
+  email: "sneha_s@ce.iitr.ac.in",
+  linkedIn: "",
+  studImg: sneha
+}].sort((a, b) => a.name.localeCompare(b.name));
 
 export const Beladi = () => {
   return (
@@ -304,28 +311,21 @@ export const Beladi = () => {
       <Container style={{ background: "#f7f8f9", alignContent: 'center', alignItems: 'center' }}>
         <h1 className="text-center headingStudent1 my-5">Village Team</h1>
         <Row>
-          <div className="col-lg-5" style={{ marginLeft: "auto" }}>
-            <StudentIdentityCard
-              studImg={student.studImg}
-              name={student.name}
-              pos="Village Co-ordinator"
-              village="Beladi"
-              email={`Email: ${student.email}`}
-              linkedIn={student.linkedIn}
-            />
-            <br />
-          </div>
-          <div className="col-lg-5" style={{ marginLeft: "auto" }}>
-            <StudentIdentityCard
-              studImg={Rishabh}
-              name="Rishabh Kosta"
-              pos="Village Co-ordinator"
-              village="Beladi"
-              email="Email: r_kosta@me.iitr.ac.in"
-              linkedIn="https://www.linkedin.com/in/rishabh-kosta-39703b237/overlay/photo/"
-            />
-            <br />
-          </div>
+          {students.map(student => {
+            return (
+              <div className="col-lg-5" style={{ marginLeft: "auto" }}>
+                <StudentIdentityCard
+                  studImg={student.studImg}
+                  name={student.name}
+                  pos={student.pos}
+                  village="Beladi"
+                  email={`Email: ${student.email}`}
+                  linkedIn={student.linkedIn}
+                />
+                <br />
+              </div>
+            )
+          })}
         </Row>
       </Container>
       <Row className="text-center my-4">

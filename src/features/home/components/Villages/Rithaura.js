@@ -28,7 +28,7 @@ const students = [
     linkedIn: "",
     studImg: chintu
   }
-]
+].sort((a, b) => a.name.localeCompare(b.name));
 
 export const Rithaura = () => {
 

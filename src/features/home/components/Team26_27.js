@@ -170,7 +170,7 @@ const members = [
 ].sort((a, b) => a.name.localeCompare(b.name));
 
 
-const Team25_26 = () => {
+const Team26_27 = () => {
     return (
         <>
             <Container style={{ background: "#f7f8f9" }}>
@@ -191,7 +191,7 @@ const Team25_26 = () => {
 };
 
 
-export default Team25_26
+export default Team26_27
 
 
 

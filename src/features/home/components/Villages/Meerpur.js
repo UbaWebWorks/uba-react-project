@@ -30,13 +30,9 @@ const students = [
     linkedIn: "",
     studImg: mahak
   },
-]
+].sort((a, b) => a.name.localeCompare(b.name));
 
 export const Meerpur = () => {
-  // Define missing variables
-  const Divya = {};
-  const Anand = {};
-  const Harsh_jha = {};
 
   return (
     <>
