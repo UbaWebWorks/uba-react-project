@@ -167,7 +167,7 @@ const members = [
         linkedIn: "",
         studImg: divya
     }
-].sort((a, b) => a.name.localeCompare(b.name));
+]
 
 
 const Team26_27 = () => {
